@@ -1,0 +1,19 @@
+.h-screen {
+    height: 100vh;
+  }
+  
+  .w-screen {
+    width: 100vw;
+  }
+  
+  .dark:bg-black {
+    background-color: #000;
+  }
+  
+  .bg-white {
+    background-color: #fff;
+  }
+  
+  .pl-14 {
+    padding-left: 3.5rem;
+  }

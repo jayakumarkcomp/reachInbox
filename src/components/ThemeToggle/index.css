@@ -1,0 +1,26 @@
+.theme-toggle {
+    background-color: #f7f7f7;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .theme-toggle:hover {
+    background-color: #ddd;
+  }
+  
+  .dark .theme-toggle {
+    background-color: #333;
+    color: #f7f7f7;
+  }
+  
+  .dark .theme-toggle:hover {
+    background-color: #444;
+  }
+  
+  .fas {
+    font-size: 18px;
+    margin-right: 10px;
+  }

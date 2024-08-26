@@ -1,0 +1,30 @@
+.top-bar {
+    height: 4rem;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 0 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #e0e0e0;
+  }
+  
+  .top-bar.dark {
+    background-color: #1f1f1f;
+    border-bottom: 2px solid #343a40;
+    color: #ffffff;
+  }
+  
+  .arrow-down {
+    font-size: 2rem;
+    margin-left: 0.75rem;
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cursor-pointer {
+    cursor: pointer;
+  }

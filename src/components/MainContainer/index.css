@@ -1,0 +1,57 @@
+.main-container {
+    height: 100vh;
+    overflow-y: scroll;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .name {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .email {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .separator {
+    height: 2px;
+    background-color: #ccc;
+    margin: 20px 0;
+  }
+  
+  .mail-list {
+    padding: 20px;
+  }

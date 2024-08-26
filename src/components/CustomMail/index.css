@@ -1,0 +1,126 @@
+.custom-mail-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .custom-mail-header {
+    background-color: #f8f9fa;
+    padding: 16px;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .custom-mail-title {
+    font-weight: bold;
+    font-size: 16px;
+    color: #5b5f66;
+  }
+  
+  .custom-mail-close {
+    cursor: pointer;
+  }
+  
+  .custom-mail-close-icon {
+    font-size: 24px;
+    color: #5b5f66;
+  }
+  
+  .custom-mail-body {
+    padding: 16px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-mail-to,
+  .custom-mail-from,
+  .custom-mail-subject {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .custom-mail-label {
+    font-size: 14px;
+    color: #5b5f66;
+    margin-right: 8px;
+  }
+  
+  .custom-mail-input {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+  }
+  
+  .custom-mail-body-textarea {
+    padding: 16px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .custom-mail-textarea {
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+  }
+  
+  .custom-mail-footer {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .custom-mail-send {
+    background-color: #4b63dd;
+    color: #ffffff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .custom-mail-send-icon {
+    font-size: 16px;
+    margin-left: 8px;
+  }
+  
+  .custom-mail-variables,
+  .custom-mail-preview {
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+  }
+  
+  .custom-mail-variables-icon,
+  .custom-mail-preview-icon {
+    font-size: 16px;
+    margin-right: 8px;
+  }
+  
+  .custom-mail-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .custom-mail-icon {
+    font-size: 24px;
+    margin-right: 16px;
+  }

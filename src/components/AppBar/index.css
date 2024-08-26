@@ -1,0 +1,22 @@
+.app-bar {
+    border-bottom: 2px solid #25262b;
+    background-color: black;
+    border-bottom-width: 2px;
+    position: fixed;
+    color: white;
+    height: 64px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo {
+    height: 40px;
+  }
